@@ -10,7 +10,7 @@ function logger() {
   const sortBySyllables = data =>
     data.sort().sort((a, b) => a.numSyllables - b.numSyllables)
 
-  const logWordSearchResults = data => {
+  const logWordSearchResults = (data: { word: string; score: number }[]) => {
     const styleWordByScore = ({ word, score }) => {
       if (score > 3000) {
         return wordStyler.strong(word)

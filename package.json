@@ -11,8 +11,10 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/jest ./src/ --collectCoverage",
+    "test:dev": "jest ./src/ --watch",
     "format": "prettier --write ./src/**/*.{js,ts}",
     "build": "tsc",
+    "build:watch": "tsc --watch",
     "test:watch": "./node_modules/.bin/jest ./src/ --watchAll"
   },
   "bin": {

@@ -6,6 +6,24 @@ Array [
 ]
 `;
 
+exports[`rhymer CLI integration test should log words that rhyme with cat to the console 1`] = `
+Array [
+  "[34m[1mat[22m[39m [34m[1mthat[22m[39m [34m[1mhat[22m[39m [34mrat[39m [34mbat[39m [34mflat[39m [2mmat[22m [2mfat[22m [2mchat[22m [2mpat[22m [2mscat[22m [2mspat[22m [2mtat[22m [2mbrat[22m [2mmatte[22m [2mstat[22m [2mgnat[22m [2msat[22m [2mvat[22m [2msplat[22m [2mmatt[22m [2mgat[22m [2mslat[22m [2mnat[22m [2msprat[22m [2mkat[22m [2mbatt[22m [2mdat[22m [2mlatke[22m [2mstrat[22m [2mplatte[22m [2mscrat[22m [2mgatt[22m [2mschmatte[22m [2mplatt[22m [2mscatt[22m [2mpratt[22m [2mbratt[22m [2mglatt[22m [2mblatt[22m [2mpatte[22m [2mhatte[22m [2mpatt[22m [2mcatt[22m [2mformat[22m [2mcombat[22m [2mpolecat[22m [2mbobcat[22m [2mchitchat[22m [2mbrickbat[22m [2mmuskrat[22m [2mwildcat[22m [2mbegat[22m [2mdoormat[22m [2mwombat[22m [2mtomcat[22m [2mlook at[22m [2msadat[22m [2mpack rat[22m [2mplacemat[22m [2melat[22m [2min that[22m [2mhard hat[22m [2mtop hat[22m [2msuch that[22m [2mnonfat[22m [2mpick at[22m [2mget at[22m [2mhigh hat[22m [2mkitcat[22m [2mfall flat[22m [2mgnaw at[22m [2mstand pat[22m [2mplace mat[22m [34m[1mcaveat[22m[39m [2mhabitat[22m [2mplutocrat[22m [2mautocrat[22m [2macrobat[22m [2mziggurat[22m [2mthermostat[22m [2mlaundromat[22m [2mdiplomat[22m [2mcopycat[22m [2mdemocrat[22m [2mbureaucrat[22m [2maerostat[22m [2mtechnocrat[22m [2mthundercat[22m [2mpussycat[22m [2mtit-for-tat[22m [2mtit for tat[22m [2mbutterfat[22m [2mcowboy hat[22m [2mgujarat[22m [2marrive at[22m [2minmarsat[22m [2mbabysat[22m [2maristocrat[22m [2mmexican hat[22m",
+]
+`;
+
+exports[`rhymer CLI mocked API caching should fetch from API if it does not exist in the cache 1`] = `
+Array [
+  "[34m[1mbash[22m[39m [34m[1mstash[22m[39m [34m[1mslash[22m[39m",
+]
+`;
+
+exports[`rhymer CLI mocked API caching should return a cached value if it exists in the cache: cache 1`] = `
+Array [
+  "[34m[1mcache[22m[39m",
+]
+`;
+
 exports[`rhymer CLI mocked API should log words that rhyme with cat to the console 1`] = `
 Array [
   "[34m[1mat[22m[39m [34m[1mthat[22m[39m [34m[1mhat[22m[39m [34mrat[39m [34m[1mcaveat[22m[39m",
